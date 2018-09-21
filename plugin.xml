@@ -19,7 +19,6 @@
 
     <preference name="APP_ID" />
     <preference name="APP_NAME" />
-    <preference name="FACEBOOK_ANDROID_SDK_VERSION" default="4.36.0"/>
 
     <engines>
         <!-- Requires > 3.5.0 because of the custom Framework tag for iOS [CB-6698] -->
@@ -61,7 +60,7 @@
               android:label="@string/fb_app_name" />
         </config-file>
 
-        <framework src="com.facebook.android:facebook-android-sdk:$FACEBOOK_ANDROID_SDK_VERSION"/>
+        <framework src="com.facebook.android:facebook-android-sdk:4.35.0"/>
 
         <!-- cordova plugin src files -->
         <source-file src="src/android/ConnectPlugin.java" target-dir="src/org/apache/cordova/facebook" />
